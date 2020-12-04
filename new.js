@@ -4,7 +4,7 @@ function myfunc(){
    fetch(req)
    .then(function(response){
         if(response.status !== 200 ){
-            console.log("doroste");
+            console.log("kolofte");
             return;
         }
 
